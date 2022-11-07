@@ -93,6 +93,7 @@ header a:hover {
 }
 
 .header-text {
+    font-family: 'Glory', sans-serif;
     position: absolute;
     text-align: center;
     left: 50%;
@@ -102,16 +103,14 @@ header a:hover {
     color: #03505a;
 }
 
-h1 {
-    font-family: 'Glory', sans-serif;
-    font-size: 30px;
+.header-one {
+    font-size: 50px;
     font-weight: 800;
     line-height: 0;
 }
 
-h2 {
-    font-family: 'Glory', sans-serif;
-    font-size: 18px;
+.header-two {
+    font-size: 28px;
     font-weight: 800;
     line-height: 0;
 }
@@ -312,8 +311,10 @@ h3 {
 }
 
 .contact-header {
+    font-family: 'work Sans', sans-serif;
     font-weight: 400;
     font-size: 20px;
+    margin-bottom: 50px;
 }
 
 .underline {
@@ -364,6 +365,7 @@ textarea {
 /* About Page */
 .aboutus-header {
     font-size: x-large;
+    font-family: 'work Sans', sans-serif;
     font-weight: 700;
     color: #03505A;
     text-align: center;
@@ -402,6 +404,7 @@ textarea {
 .products-header {
     font-size: 25px;
     font-weight: 800;
+    font-family: 'work Sans', sans-serif;
     color: #03505a;
     margin-top: 100px;
     margin-bottom: 0;
@@ -410,8 +413,10 @@ textarea {
 
 .lightblue-text {
     color: #B9D9DB;
+    font-family: 'work Sans', sans-serif;
+    font-size: 20px;
     font-weight: 600;
-    margin-top: 0;
+    margin-top: 5px;
     margin-left: 30px;
 }
 
@@ -452,6 +457,7 @@ textarea {
 .product-one-header {
     font-weight: 500;
     margin-top: 50px;
+    font-family: 'work Sans', sans-serif;
     font-size: 25px;
 }
 
@@ -505,6 +511,14 @@ textarea {
     background-color: #D0E4E5;
 }
 
+.product-info-header {
+    font-family: 'work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
 .product-info {
     color: #556666;
     max-width: 400px;
@@ -536,8 +550,10 @@ textarea {
     margin-top: 30px;
 }
 .cart-header {
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 40px;
+    font-family: 'work Sans', sans-serif;
+    font-size: 20px;
 }
 
 .subtotal {
@@ -577,7 +593,9 @@ textarea {
     color: #0A3641;
     font-size: 40px;
     font-weight: 500;
+    font-family: 'work Sans', sans-serif;
     margin-left: 90px;
+    margin-top: 90px;
 }
 
 .checkout-img {
@@ -604,6 +622,7 @@ textarea {
     align-content: center;
     justify-content: center;
     margin-bottom: 20px;
+    
 }
 .checkout-details {
     margin-top: 40px;
@@ -707,7 +726,10 @@ input, textarea {
 
 .order-header {
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
+    font-family: 'work Sans', sans-serif;
+    margin-top: 100px;
+    margin-bottom: 40px;
 }
 
 .order-finish {
@@ -1035,9 +1057,9 @@ input, textarea {
         /* Contact page */
 
         .contact-info {
-            width: 592px;
+            width: 400px;
             height: 400px;
-            margin-left: -60px;
+            margin-left: -20px;
         }
         .contact {
             display: grid;
@@ -1052,7 +1074,8 @@ input, textarea {
         }
         .contact-input {
             margin-top: 120px;
-            margin-left: 20px;
+            margin-left: -130px;
+            max-width: 400px;
             
         }
 
@@ -1068,6 +1091,9 @@ input, textarea {
             height: 410px;
             width: 360px;
             margin-top: 50px;
+        }
+        .lightblue-text {
+            margin-top: 25px;
         }
        /* Mountain-jacket page */
        .product-one-img {
@@ -1181,5 +1207,22 @@ input, textarea {
         justify-content: center;
         gap: 0;
        }
-
+       .checkout {
+        display: inline-flex;
+        margin-left: 100px;
+        margin-top: 60px;
+       }
+       .remove-price {
+        display: flex;
+        margin-left: -250px;
+       }
+       .checkout-summary {
+        display: inline-block;
+        margin-left: 550px;
+        margin-top: -300px;
+       }
+       .shipping-info {
+        display: inline-block;
+        margin-left: 570px;
+       }
 }
