@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Rainy Days | Checkout</title>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Rainy Days checkout, summary of shopping cart"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1,0 " />
+    <link href="CSS/styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Glory:wght@800&family=Work+Sans:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/eea9dd34be.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <section class="Logo-img">
+        <a href="index.html">
+          <img src="images/RainyDays_Logo.png" alt="Logo" class="Logo" />
+        </a>
+      </section>
+
+      <section>
+        <label for="hamburger-menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav class="contact-nav">
+          <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">New arrivals</a></li>
+            <li><a href="products.html">Woman</a></li>
+            <li><a href="products.html">men</a></li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+
+    <main>
+      <a href="index.html" class="Back">⟵ Back</a>
+      <p class="checkout-header">My Cart</p>
+      <section class="checkout">
+        <div>
+          <img
+            src="images/RainyDays_Jacket2 (1).png"
+            alt="Mountain Hardwear Exposure"
+            class="checkout-img"
+          />
+        </div>
+        <div class="checkout-details">
+          <p class="mediumbold-text">RW231</p>
+          <p class="semibold-text">Mountain Hardwear Exposure</p>
+          <p>Color: Black</p>
+          <p>Product type: Tight fit</p>
+          <p>Qty: 1</p>
+        </div>
+      </section>
+
+      <section class="remove-price mediumbold-text">
+        <p class="red-text">Remove</p>
+        <p>$120</p>
+      </section>
+
+      <section class="checkout-summary">
+        <p class="summary-header">Summary</p>
+        <div class="row1">
+          <p>Subtotal</p>
+          <p>$120</p>
+        </div>
+        <div class="row2">
+          <p>Shipping</p>
+          <p>Free</p>
+        </div>
+        <div class="row3">
+          <p>Total</p>
+          <p>$120</p>
+        </div>
+      </section>
+
+      <section class="shipping-info">
+        <form action="form-success.php" method="post">
+          <fieldset class="shipping-detials">
+            <div class="name-input">
+              <label for="name">First name</label>
+              <input
+                type="text"
+                name="firstname"
+                id="name"
+                class="checkout-input"
+                required
+              />
+              <label for="name">Last name</label>
+              <input
+                type="text"
+                name="lastname"
+                id="name"
+                class="checkout-input"
+                required
+              />
+            </div>
+            <div class="adress-input">
+              <label for="adress">Adress</label>
+              <input
+                type="text"
+                name="adress"
+                id="adress"
+                class="checkout-input"
+                required
+              />
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                class="checkout-input"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                class="checkout-input"
+                required
+              />
+            </div>
+
+            <div class="cardinfo-input">
+              <label for="cardinformation">Card Information</label>
+              <input
+                type="number"
+                name="cardinformation"
+                id="cardinformation"
+                class="checkout-input"
+                required
+              />
+              <label for="mmyy">MM/YY</label>
+              <input
+                type="number"
+                name="mmyy"
+                id="mmyy"
+                class="checkout-input"
+                required
+              />
+              <label for="cvc">CVC</label>
+              <input
+                type="number"
+                name="cvc"
+                id="cvc"
+                class="checkout-input"
+                required
+              />
+            </div>
+          </fieldset>
+        </form>
+        <a href="summary.html" class="completeorder">Complete Order</a>
+      </section>
+    </main>
+    <footer></footer>
+  </body>
+</html>
