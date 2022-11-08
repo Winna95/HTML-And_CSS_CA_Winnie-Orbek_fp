@@ -10,7 +10,7 @@
     max-width: 592px;
     align-content: center;
     justify-content: center;
-    width: 327px;
+    width: 200px;
     height: 366px;
     margin-left: 10px;
 }
@@ -50,6 +50,7 @@ textarea {
     margin: 10px;
     border: 0.5px solid;
     border-color: #03505A;
+    width: 200px;
 
 }
 .submit {
