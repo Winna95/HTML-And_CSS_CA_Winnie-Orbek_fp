@@ -1,0 +1,78 @@
+/* Mountain-Jacket Page */
+.product-one-header {
+    font-weight: 500;
+    margin-top: 50px;
+    font-family: 'work Sans', sans-serif;
+    font-size: 25px;
+}
+
+.boldtext {
+    font-weight: 700;
+}
+
+.product-one-details {
+    margin-bottom: 30px;
+    position: relative;
+    max-width: 252px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.product-one-img {
+    height: 293px;
+    width: 243px;
+}
+
+.product-one {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    line-height: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.center {
+    text-align: center;
+}
+.size-button {
+    background-color: #D0E4E5;
+    color: #02363E;
+    border: none;
+    font-weight: 600;
+    padding: 8px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.addtocart-button {
+    color: #FFFFFF;
+    background-color: #02363E;
+    padding: 8px 60px;
+    text-align: center;
+    display: grid;
+    margin: auto;
+}
+
+.addtocart-button:hover {
+    background-color: #D0E4E5;
+}
+
+.product-info-header {
+    font-family: 'work Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.product-info {
+    color: #556666;
+    max-width: 400px;
+    margin-left: 30px;
+    margin-top: 30px;
+    
+}

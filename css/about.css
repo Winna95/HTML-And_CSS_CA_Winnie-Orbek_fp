@@ -1,0 +1,37 @@
+/* About Page */
+.aboutus-header {
+    font-size: x-large;
+    font-family: 'work Sans', sans-serif;
+    font-weight: 700;
+    color: #03505A;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.about-image {
+    width: 360px;
+    height: 250px;
+    margin: auto;
+    display: block;
+}
+
+.aboutUs {
+    background-color: #1F2937;
+    color: #FFFFFF;
+    width: 307px;
+    height: 450px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 52px;
+    padding-right: 52px;
+    margin: auto;
+    display: block;
+}
+
+.RegularText {
+    font-weight: 400;
+}
+
+.EkstraBoldText {
+    font-weight: 800;
+}
