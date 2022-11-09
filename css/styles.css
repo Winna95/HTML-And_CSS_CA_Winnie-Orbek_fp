@@ -6,14 +6,15 @@ body {
 }
 
 
-.Logo {
+.logo {
     width: 148px;
     height: 88px;
     padding-left: 40px;
     margin: 40px 20px;
+    object-fit: fill;
 
 }
-.Logo:hover {
+.logo:hover {
     opacity: 50%;
 }
 
@@ -82,7 +83,7 @@ label {
 
 }
 
-.Back {
+.back {
     background-color: #03505A;
     color: #FFFFFF;
     font-family: 'Work Sans', sans-serif;
@@ -96,7 +97,7 @@ label {
     margin: 20px;
 }
 
-.Back:hover {
+.back:hover {
     background-color: #D0E4E5;
 }
 

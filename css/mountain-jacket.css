@@ -65,14 +65,15 @@
     font-family: 'work Sans', sans-serif;
     font-size: 20px;
     font-weight: 500;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    text-align: center;
 }
 
 
 .product-info {
     color: #556666;
     max-width: 400px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin: 50px auto;
+    padding: auto;
     
 }

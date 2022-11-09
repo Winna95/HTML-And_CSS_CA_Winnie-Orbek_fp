@@ -21,14 +21,16 @@
     display: grid;
     grid-template-columns: 1fr;
     grid-gap: 30px;
-    max-width: 1512px;
-    margin: auto 10px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
 }
 
 .products img {
-    height: 320px;
-    width: 280px;
+    height: 182px;
+    width: 182px;
     margin-top: 50px;
+    
 }
 
 .product-name {

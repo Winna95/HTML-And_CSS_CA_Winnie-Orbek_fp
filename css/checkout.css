@@ -12,6 +12,7 @@
     height: 106px;
     width: 100px;
     margin-top: 50px;
+    margin-left: auto;
 }
 .semibold-text {
     font-weight: 600;
@@ -25,37 +26,27 @@
 }
 
 .checkout {
-    display: flex;
-    max-width: 1200px;
-    flex-direction: row;
-    grid-gap: 50px;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    grid-template-rows: 1;
+    max-width: 400px;
+    gap: 0px;
+    margin: 20px auto;
     
 }
 .checkout-details {
     margin-top: 40px;
+    padding-left: 29px;
+    margin-right: auto;
 }
 
-.remove-price {
-    display: flex;
-    max-width: 1200px;
-    flex-direction: row;
-    grid-gap: 100px; 
-    margin-top: 0;
-    align-content: center;
-    justify-content: center;
-}
 .checkout-summary {
     background-color: #F3FBFB;
     padding: 20px;
     height: 280px;
-    width: 235px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 30px;
 }
 
 .summary-header {
@@ -84,7 +75,7 @@
 
 .shipping-details {
     background-color: #F3FBFB;
-    padding: 20px;
+    padding: 10px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
