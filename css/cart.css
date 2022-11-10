@@ -22,7 +22,7 @@
     font-weight: 600;
     margin-bottom: 40px;
     font-family: 'work Sans', sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .subtotal {
@@ -33,7 +33,7 @@
     color: #FFFFFF;
     background-color: #03505A;
     font-weight: 500;
-    padding: 8px 70px;
+    padding: 8px 50px;
     
 }
 .checkout-button:hover {background-color: #D0E4E5;
