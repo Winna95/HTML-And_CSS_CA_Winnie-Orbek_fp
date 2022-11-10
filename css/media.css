@@ -18,6 +18,7 @@
 }
 
 @media (min-width: 600px) {
+    /* product page */
     .product-list {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -25,6 +26,8 @@
         height: 182px;
         width: 150px;
     }
+
+    /* cart page */
     .cart-img {
         height: 206px;
         width: 200px;
@@ -32,6 +35,13 @@
     .cart-details {
         margin-top: 100px;
     }
+
+    /* mountain jacket page */
+    .product-one-details {
+        max-width: 400px;
+    }
+
+    /* button */
 
     .back-home-button {
         padding: 8px 60px;
@@ -86,9 +96,7 @@
     .hidden-mobile {
         max-width: 190px;
     }
-    .product-one-details{
-        max-width: 560px;
-    }
+    
 }
 
 
@@ -231,6 +239,46 @@
             margin-left: auto;
             margin-right: auto;
         }
+
+        /* mountain jacket page */
+        .product-one {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+        }
+        .product-one-img {
+            grid-column: 1;
+            grid-row: 1;
+            margin-top: 70px;
+        }
+        .product-one-details {
+            grid-column: 2;
+            grid-row: 1;
+        }
+        .center-two {
+            grid-column: 2;
+            grid-row: 1;
+            margin-top: 240px;
+        }
+        .center-three {
+            grid-column: 2;
+            grid-row: 1;
+            margin-top: 350px;
+        }
+        .product-info-header {
+            text-align: left;
+        }
+        .product-info {
+            margin-top: -300px;
+            max-width: 600px;
+        }
+
+
+
 
     /*checkout page*/
 
