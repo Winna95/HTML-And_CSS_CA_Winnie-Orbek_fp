@@ -26,7 +26,7 @@ https://github.com/
 Hosted link:
 https://github.com/Winna95/HTML-And_CSS_CA_Winnie-Orbek_fp
 
-https://eloquent-chimera-909e9f.netlify.app/
+https://tubular-bonbon-f72131.netlify.app/
 
 Links to the prototype:
 Desktop:
