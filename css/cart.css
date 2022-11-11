@@ -2,17 +2,18 @@
 
 .shopping-cart {
     display: flex;
-    max-width: 600px;
+    width: 300px;
     flex-direction: row;
-    grid-gap: 50px;
+    grid-gap: 30px;
     margin: 70px auto;
+    align-content: center;
+    justify-content: center;
 }
 
 .cart-img {
-    height: 106px;
-    width: 100px;
+    height: 100px;
+    width: 95px;
     margin-top: 100px;
-    margin-left: 30px;
     
 }
 .cart-details {
@@ -33,7 +34,7 @@
     color: #FFFFFF;
     background-color: #03505A;
     font-weight: 500;
-    padding: 8px 50px;
+    padding: 8px 40px;
     
 }
 .checkout-button:hover {background-color: #D0E4E5;
