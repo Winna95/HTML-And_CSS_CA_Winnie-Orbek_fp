@@ -112,9 +112,6 @@
     .category-one, .category-two, .category-three {
         padding: 10px 20px
     }
-    .contact-input {
-        max-width: 500px;
-    }
 }
 
 @media (min-width: 799px) {
